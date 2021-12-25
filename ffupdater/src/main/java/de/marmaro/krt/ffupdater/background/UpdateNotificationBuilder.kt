@@ -9,7 +9,6 @@ import android.app.PendingIntent.FLAG_IMMUTABLE
 import android.app.PendingIntent.FLAG_UPDATE_CURRENT
 import android.content.Context
 import android.content.Intent
-import android.graphics.BitmapFactory
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
@@ -45,7 +44,6 @@ object UpdateNotificationBuilder {
         }
         val notification = notificationBuilder
             .setSmallIcon(R.mipmap.transparent, 0)
-            .setLargeIcon(BitmapFactory.decodeResource(context.resources, R.mipmap.ic_launcher))
             .setContentTitle(context.getString(R.string.update_notification__title, appTitle))
             .setContentText(context.getText(R.string.update_notification__text))
             .setContentIntent(updateAppIntent)

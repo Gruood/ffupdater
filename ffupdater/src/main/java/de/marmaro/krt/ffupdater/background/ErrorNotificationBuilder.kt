@@ -7,7 +7,6 @@ import android.app.PendingIntent
 import android.app.PendingIntent.FLAG_IMMUTABLE
 import android.app.PendingIntent.FLAG_UPDATE_CURRENT
 import android.content.Context
-import android.graphics.BitmapFactory
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
@@ -40,7 +39,6 @@ object ErrorNotificationBuilder {
         }
         val notification = notificationBuilder
             .setSmallIcon(mipmap.transparent, 0)
-            .setLargeIcon(BitmapFactory.decodeResource(context.resources, mipmap.ic_launcher))
             .setContentTitle(context.getText(R.string.background_job_failure__notification_title))
             .setStyle(NotificationCompat.BigTextStyle().bigText(message))
             .setContentText(message)
