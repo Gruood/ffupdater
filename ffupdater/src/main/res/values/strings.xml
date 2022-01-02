@@ -108,7 +108,7 @@
     <string name="running_downloads_dialog__negative">No, don\'t download it</string>
     <string name="running_downloads_dialog__title">Running downloads</string>
     <string name="running_downloads_dialog__yes">Yes</string>
-    <string name="session_installer__not_enough_storage">The operation failed because not enough storage is available: "%1$s"</string>
+    <string name="session_installer__not_enough_storage">The operation failed because not enough storage is available: %1$s</string>
     <string name="session_installer__status_failure">The operation failed in a generic way. The system will always try to provide a more specific failure reason, but in some rare cases this may be delivered.</string>
     <string name="session_installer__status_failure_aborted">The operation failed because it was actively aborted. For example, the user actively declined requested permissions, or the session was abandoned.</string>
     <string name="session_installer__status_failure_blocked">The operation failed because it was blocked. For example, a device policy may be blocking the operation, a package verifier may have blocked the operation, or the app may be required for core system operation.</string>

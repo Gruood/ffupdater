@@ -105,7 +105,7 @@
     <string name="running_downloads_dialog__negative">Нет, не загружайте его</string>
     <string name="running_downloads_dialog__title">Работающие загрузки</string>
     <string name="running_downloads_dialog__yes">Да</string>
-    <string name="session_installer__not_enough_storage">Операция завершилась неудачно из-за недостаточного объема памяти: \"%1$s\"</string>
+    <string name="session_installer__not_enough_storage">Операция завершилась неудачно из-за недостаточного объема памяти: %1$s</string>
     <string name="session_installer__status_failure">Операция завершилась неудачно в общем случае. Система всегда будет пытаться предоставить более конкретную причину сбоя, но в некоторых редких случаях она может быть не предоставлена.</string>
     <string name="session_installer__status_failure_aborted">Операция не удалась, потому что она была активно прервана. Например, пользователь активно отказался от запрашиваемых разрешений, или сеанс был прерван.</string>
     <string name="session_installer__status_failure_blocked">Операция завершилась неудачно, потому что была заблокирована. Например, политика устройства может блокировать операцию, верификатор пакетов может блокировать операцию, или приложение может быть необходимо для работы основной системы.</string>

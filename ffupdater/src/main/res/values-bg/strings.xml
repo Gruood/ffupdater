@@ -105,7 +105,7 @@
     <string name="running_downloads_dialog__negative">Не, не го изтегляйте</string>
     <string name="running_downloads_dialog__title">Текущи изтегляния</string>
     <string name="running_downloads_dialog__yes">Да</string>
-    <string name="session_installer__not_enough_storage">Операцията не е успешна, защото няма достатъчно място за съхранение: \"%1$s\"</string>
+    <string name="session_installer__not_enough_storage">Операцията не е успешна, защото няма достатъчно място за съхранение: %1$s</string>
     <string name="session_installer__status_failure">Операцията се е провалила по общ начин. Системата винаги се опитва да предостави по-конкретна причина за неуспех, но в някои редки случаи това може да се окаже невъзможно.</string>
     <string name="session_installer__status_failure_aborted">Операцията се е провалила, защото е била активно прекъсната. Например, потребителят активно е отказал исканите разрешения или сесията е била прекратена.</string>
     <string name="session_installer__status_failure_blocked">Операцията е неуспешна, защото е била блокирана. Например политика на устройството може да блокира операцията, верификатор на пакети може да е блокирал операцията или приложението може да се изисква за основната работа на системата.</string>
