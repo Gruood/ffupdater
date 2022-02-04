@@ -1,5 +1,5 @@
 [<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/app/de.marmaro.krt.ffupdater)
-
+[![Android CI](https://github.com/Gruood/ffupdater/actions/workflows/android.yml/badge.svg)](https://github.com/Gruood/ffupdater/actions/workflows/android.yml)
 # Firefox-Updater
 
 Download, install and update these privacy friendly browsers:
